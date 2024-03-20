@@ -1,0 +1,50 @@
+{
+    "invoices": [
+        {
+            "id": 1,
+            "date": "Tue Mar 19 2024",
+            "customername": "Dave",
+            "packages": [
+                {
+                    "id": "pak1",
+                    "weight": "3kg",
+                    "customerid": 1,
+                    "price": 10,
+                    "shippingOrder": 4
+                },
+                {
+                    "id": "pak2",
+                    "weight": "4kg",
+                    "customerid": 1,
+                    "price": 20,
+                    "shippingOrder": 3
+                }
+            ],
+            "totalweight": "7kg",
+            "totalprice": "30"
+        },
+        {
+            "id": 2,
+            "date": "Tue Mar 19 2024",
+            "customername": "Sarah",
+            "packages": [
+                {
+                    "id": "pak3",
+                    "weight": "6kg",
+                    "customerid": 2,
+                    "price": 50,
+                    "shippingOrder": 1
+                },
+                {
+                    "id": "pak4",
+                    "weight": "2kg",
+                    "customerid": 2,
+                    "price": 14,
+                    "shippingOrder":2
+                }
+            ],
+            "totalweight": "8kg",
+            "totalprice": "64"
+        }
+    ]
+}

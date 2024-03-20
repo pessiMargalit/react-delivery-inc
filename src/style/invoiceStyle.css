@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.invoice-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header,
+.footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer {
+    border-bottom: 2px solid #ddd;
+
+}
+
+.header h2 {
+    color: #333;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.total {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.note {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.left-info,
+.right-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-info {
+    text-align: left;
+}
+
+.right-info {
+    text-align: right;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#InvoicTitle{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.totals-summary {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px; 
+}
+
+.totals-summary > div {
+    flex: 1;
+    text-align: right;
+}
+
+.totals-summary > div:first-child {
+    text-align: left; 
+}
